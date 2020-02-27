@@ -1,3 +1,16 @@
+#second
+{
+    height: 0px;
+    background-color: white;
+}
+#second:hover
+{
+    height: 730px;
+    transition-duration: 3s;
+    z-index: 9999;
+}
+
+
 #menu{
     width: 175px;
     height: 100px;
