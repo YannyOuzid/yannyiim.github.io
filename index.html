@@ -9,16 +9,21 @@
   <link rel="stylesheet" href="css/menu.css">
   <script src="script/loader.js"></script>
 </head>
-<body style="background-color: black;" onload="myFunction()" style="margin:0;">
+<body id="body" style="background-color: black;" onload="myFunction()" style="margin:0;">
 
     <div id="loader"></div>
     <div style="display:none;" id="myDiv" class="animate-bottom">
     <div id="second">
+      <div id="description">
+      <p>Design</p>
+      <p>Logo</p>
+      <p>Maquettes</p>
+      </div>
         
         <div id="Titre">Portfolio</div>
         <div id="Utilisateur">Kevin Guias</div>
         <div id="debut">
-      <button id="menu"><p id="categorie">Button</p></button>
+      <button id="menu" onclick="mouvement()"><p id="categorie">Button</p></button>
      
       <button id="menu"><p id="categorie">Button2</p></button>
 
@@ -27,6 +32,6 @@
       <button id="menu"><p id="categorie">Button4</p></button>
     </div>
     </div>
-
+    <script src="script/click.js"></script>
 </body>
 </html>

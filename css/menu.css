@@ -2,12 +2,22 @@
 {
     height: 0px;
     background-color: white;
+    transition: 3s;
+}
+#description{
+    position: absolute;
+    font-size: 90px;
+    font-family: 'Source Sans Pro', serif ;
+}
+#second:hover #description{
+    z-index: 999;
+    transition: 5s;
 }
 #second:hover
 {
     height: 730px;
     transition-duration: 3s;
-    z-index: 9999;
+
 }
 
 
