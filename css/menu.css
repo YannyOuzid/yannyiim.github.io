@@ -1,0 +1,43 @@
+#menu{
+    width: 175px;
+    height: 100px;
+    color: white;
+    background-color: black;
+    border-color: white;
+    margin: 20px;
+    
+}
+#menu:hover{
+
+    color: black;
+    background-color: white;
+    border-color: black;
+
+}
+#menu:active{
+
+    color: white;
+    background-color: black;
+    border-color: white;
+
+}
+#categorie{
+
+    font-family: 'Spartan', serif ;
+}
+#Titre {
+    position: absolute;
+    padding-top: 150px;
+    color: white;
+    font-family: 'Source Sans Pro', serif ;
+    font-size: 250px;
+}
+#debut{
+    padding-left: 1100px;
+    padding-top: 60px;
+}
+#Utilisateur{
+    font-family: 'Source Sans Pro', serif ;
+    color: white;
+}
+
